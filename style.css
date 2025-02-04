@@ -124,19 +124,37 @@ header .show-bar:hover {
   background-position: center;
 }
 .section:nth-child(1) {
-  background-image: url(https://i.postimg.cc/wxfW0cwm/bg1.png);
+  background-image: url(home.jpg);
 }
 .section:nth-child(2) {
-  background-image: url(https://i.postimg.cc/yYDL5gGr/bg2.jpg);
+  background-image: url(1.jpg);
 }
 .section:nth-child(3) {
-  background-image: url(https://i.postimg.cc/L8fN4d2t/bg3.jpg);
+  background-image: url(2.webp);
 }
 .section:nth-child(4) {
-  background-image: url(https://i.postimg.cc/KY2QR98d/bg4.jpg);
+  background-image: url(3.jpg);
 }
 .section:nth-child(5) {
-  background-image: url(https://i.postimg.cc/g0HsRvwr/bg5.jpg);
+  background-image: url(4.jpg);
+}
+.section:nth-child(6) {
+  background-image: url(5.jpg);
+}
+.section:nth-child(7) {
+  background-image: url(6.webp);
+}
+.section:nth-child(8) {
+  background-image: url(7.jpg);
+}
+.section:nth-child(9) {
+  background-image: url(8.jpg);
+}
+.section:nth-child(10) {
+  background-image: url(9.jpg.webp);
+}
+.section:nth-child(11) {
+  background-image: url(10.jpg);
 }
 
 .section .section-span {
@@ -224,4 +242,24 @@ header .show-bar:hover {
     color: #fff;
     cursor: pointer;
   }
+}
+body{
+  color:white;
+  font-style: bold;
+}
+strong{
+   font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 3s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
+  }
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px grey, 0 0 40px grey, 0 0 50px grey, 0 0 60px grey, 0 0 70px grey, 0 0 80px grey;
 }
