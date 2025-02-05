@@ -260,7 +260,11 @@ strong{
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 3s ease-in-out infinite alternate;
   }
-
+p{
+  color:white;
+  background: black;
+  font-size: 16px;
+}
   @-webkit-keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black;
