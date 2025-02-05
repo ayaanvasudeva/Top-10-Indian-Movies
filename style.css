@@ -127,34 +127,34 @@ header .show-bar:hover {
   background-image: url(home.jpg);
 }
 .section:nth-child(2) {
-  background-image: url(1.jpg);
+  background-image: url(10.jpg);
 }
 .section:nth-child(3) {
-  background-image: url(2.webp);
-}
-.section:nth-child(4) {
-  background-image: url(3.jpg);
-}
-.section:nth-child(5) {
-  background-image: url(4.jpg);
-}
-.section:nth-child(6) {
-  background-image: url(5.jpg);
-}
-.section:nth-child(7) {
-  background-image: url(6.webp);
-}
-.section:nth-child(8) {
-  background-image: url(7.jpg);
-}
-.section:nth-child(9) {
-  background-image: url(8.jpg);
-}
-.section:nth-child(10) {
   background-image: url(9.jpg.webp);
 }
+.section:nth-child(4) {
+  background-image: url(8.jpg);
+}
+.section:nth-child(5) {
+  background-image: url(7.jpg);
+}
+.section:nth-child(6) {
+  background-image: url(6.webp);
+}
+.section:nth-child(7) {
+  background-image: url(5.jpg);
+}
+.section:nth-child(8) {
+  background-image: url(4.jpg);
+}
+.section:nth-child(9) {
+  background-image: url(3.jpg);
+}
+.section:nth-child(10) {
+  background-image: url(2.webp);
+}
 .section:nth-child(11) {
-  background-image: url(10.jpg);
+  background-image: url(1.jpg);
 }
 
 .section .section-span {
